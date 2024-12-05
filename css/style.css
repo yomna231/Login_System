@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.link-page:hover{
+    text-decoration:underline;
+}
+body{
+    background-color:#24353F;
+    font-family: "Titillium Web", sans-serif;
+    overflow-x: hidden;
+    padding-top: 56px;
+    margin: 0;
+  
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999; 
+
+}
+.btn{
+    color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+}
+input{
+    color: #fff !important;
+}
+.btn-outline-warning:hover {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #fff;
+}
+
+ 
+.form-control,button{
+    margin:16px 0px;
+    padding: 6px 12px;
+}
+.form-control:focus {
+    box-shadow: none;
+    color: #fff !important;
+    background-color: transparent
+}
+input::placeholder{
+    color: #B6B6B6 !important;
+
+}
+.btn-outline-secondary {
+    --bs-btn-color: #17a2b8;
+    --bs-btn-border-color: #17a2b8;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #17A2B8;
+}
+.header{
+   color: rgb(23, 162, 184) !important;
+   font-size: 40px;
+   line-height: 48px;
+
+}
+.box{
+    box-shadow: -5px 2px 54px -9px  black;
+    
+}
+.btn-outline-secondary{
+     color: #17A2B8; 
+    --bs-btn-hover-border-color: rgb(23, 162, 184); 
+     --bs-btn-focus-shadow-rgb: 108, 117, 125; 
+     --bs-btn-active-color: #fff; 
+    --bs-btn-active-bg: #17a2b8;
+    --bs-btn-active-border-color: #17a2b8;
+}
+
+button:focus {
+    box-shadow: 0 0 0 .2rem rgba(23, 162, 184, .5);
+}
